@@ -3,23 +3,21 @@
 ## Overview
 A PyTorch neural network application that recognizes handwritten digits using MNIST dataset and a tkinter GUI.
 
-##Neural Network Architecture
+## Neural Network Architecture
 Layer Breakdown
 
-##Input Layer: 28x28 pixel flattened to 784 neurons
+## Input Layer: 28x28 pixel flattened to 784 neurons
 First Hidden Layer:
 
-###784 → 128 neurons
+### 784 → 128 neurons
 ReLU activation
 
+## Second Hidden Layer:
 
-##Second Hidden Layer:
-
-##128 → 64 neurons
+## 128 → 64 neurons
 ReLU activation
 
-
-###Output Layer:
+### Output Layer:
 
 64 → 10 neurons (0-9 digit classification)
 
