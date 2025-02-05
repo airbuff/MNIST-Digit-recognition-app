@@ -9,21 +9,21 @@ Layer Breakdown
 ## Input Layer: 28x28 pixel flattened to 784 neurons
 First Hidden Layer:
 
-### 784 → 128 neurons
+784 → 128 neurons
 ReLU activation
 
-## Second Hidden Layer:
+Second Hidden Layer:
 
-## 128 → 64 neurons
+128 → 64 neurons
 ReLU activation
 
-### Output Layer:
+Output Layer:
 
 64 → 10 neurons (0-9 digit classification)
 
 
 
-Training Parameters
+## Training Parameters
 
 Optimizer: Adam
 Learning Rate: 0.001
@@ -31,13 +31,13 @@ Loss Function: Cross-Entropy
 Epochs: 10
 Batch Size: 64
 
-Performance Metrics
+## Performance Metrics
 
 Dataset: MNIST Handwritten Digits
 Training Accuracy: Visualized during training
 Model Type: Fully Connected Neural Network
 
-Key Characteristics
+## Key Characteristics
 
 Simple, interpretable architecture
 Suitable for basic digit recognition
