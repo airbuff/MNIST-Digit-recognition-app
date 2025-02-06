@@ -21,7 +21,8 @@ Output Layer:
 
 64 → 10 neurons (0-9 digit classification)
 
-
+## Download Dataset
+https://huggingface.co/datasets/ylecun/mnist/tree/main
 
 ## Training Parameters
 
